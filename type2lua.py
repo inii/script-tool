@@ -8,8 +8,12 @@ import sys
 # print(sys.getdefaultencoding())
 
 print("hello type2lua.py", os.getcwd())
-in_path = r'C:/Users/Administrator/Desktop/11/ResourceType.java'
-out_path = r'C:/Users/Administrator/Desktop/11/out_file.lua'
+cur_dir = os.path.dirname(__file__)
+print("os.path.dirname(__file__):" + cur_dir)
+in_path = os.path.abspath(os.path.join(cur_dir, 'ResourceType.java'))
+out_path =os.path.abspath(os.path.join(cur_dir, 'out_file.lua'))
+# in_path = r'C:/Users/Administrator/Desktop/11/ResourceType.java'
+# out_path = r'C:/Users/Administrator/Desktop/11/out_file.lua'
 
 def get_lines():
 	file = open(in_path, 'r', encoding='UTF-8')

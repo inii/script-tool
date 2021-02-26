@@ -160,35 +160,32 @@
 	-- 新招募积分 
 	ResourceType["ITEM_54"] = 54
 
+	-- 狂欢结 
+	ResourceType["ITEM_55"] = 55
+
+	-- 体力 
+	ResourceType["ITEM_56"] = 56
+
 	-- 灵气 
-	ResourceType["LING_QI"] = 55
-
-	-- 仙玉/玄玉 
-	ResourceType["XIAN_YU"] = 56
-
-	-- 灵石 
-	ResourceType["LING_SHI"] = 57
-
-	-- 木材 
-	ResourceType["MU_CAI"] = 58
+	ResourceType["LING_QI"] = 57
 
 	-- 食物 
-	ResourceType["SHI_WU"] = 59
+	ResourceType["SHI_WU"] = 58
+
+	-- 木材 
+	ResourceType["MU_CAI"] = 59
 
 	-- 陨铁 
 	ResourceType["YUN_TIE"] = 60
 
-	-- 威望 
-	ResourceType["WEI_WANG"] = 61
-
 	-- 仙仆 
-	ResourceType["XIAN_PU"] = 62
+	ResourceType["XIAN_PU"] = 61
 
 	-- 多少年修为 
-	ResourceType["XIU_WEI_OF_YEAR"] = 63
+	ResourceType["XIU_WEI_OF_YEAR"] = 62
 
 	-- 修为 
-	ResourceType["XIU_WEI"] = 64
+	ResourceType["XIU_WEI"] = 63
 
 	-- 正气值 
 	ResourceType["ZHENG_QI"] = 64
@@ -198,4 +195,7 @@
 
 	-- 门派贡献 
 	ResourceType["GONG_XIAN"] = 66
+
+	-- 威望 
+	ResourceType["WEI_WANG"] = 67
 

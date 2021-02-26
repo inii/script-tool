@@ -176,35 +176,32 @@ public enum ResourceType {
 	/** 新招募积分 */
 	ITEM_54(54, "item_54", "item_54"),
 
+	/** 狂欢结 */
+	ITEM_55(55, "item_55", "item_55"),
+
+	/** 体力 */
+	ITEM_56(56, "item_56", "item_56"),
+
 	/** 灵气 */
-	LING_QI(55,"item_55","item_55"),
-
-	/** 仙玉/玄玉 */
-	XIAN_YU(56,"item_56","item_56"),
-
-	/** 灵石 */
-	LING_SHI(57,"item_57","item_57"),
-
-	/** 木材 */
-	MU_CAI(58,"item_58","item_58"),
+	LING_QI(57,"item_57","item_57"),
 
 	/** 食物 */
-	SHI_WU(59,"item_59","item_59"),
+	SHI_WU(58,"item_58","item_58"),
+
+	/** 木材 */
+	MU_CAI(59,"item_59","item_59"),
 
 	/** 陨铁 */
 	YUN_TIE(60,"item_60","item_60"),
 
-	/** 威望 */
-	WEI_WANG(61,"item_61","item_61"),
-
 	/** 仙仆 */
-	XIAN_PU(62,"item_62","item_62"),
+	XIAN_PU(61,"item_61","item_61"),
 
 	/** 多少年修为 */
-	XIU_WEI_OF_YEAR(63,"item_63","item_63"),
+	XIU_WEI_OF_YEAR(62,"item_62","item_62"),
 
 	/** 修为 */
-	XIU_WEI(64,"item_64","item_64"),
+	XIU_WEI(63,"item_63","item_63"),
 
 	/** 正气值 */
 	ZHENG_QI(64,"item_64","item_64"),
@@ -214,6 +211,10 @@ public enum ResourceType {
 
 	/** 门派贡献 */
 	GONG_XIAN(66,"item_66","item_66"),
+
+	/** 威望 */
+	WEI_WANG(67,"item_67","item_67"),
+
 	//
 	// /** 修炼速度(效率) TODO*/
 	// XIU_LIAN_SPEED(213,"item_213","item_213"),
